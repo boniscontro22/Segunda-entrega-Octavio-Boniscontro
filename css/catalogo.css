@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: teal;
+}
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    margin-bottom:20px;
+    padding-bottom:50px;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 20px 0 ;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border: 2px;
+  background-color: #333;
+}
+
+  
+  
+  
+  
