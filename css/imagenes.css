@@ -1,6 +1,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    background-color: teal;
 }
 .titulo{
     font-family: Arial, Helvetica, sans-serif;
@@ -18,13 +19,10 @@
     width: 100%;
   }
   .imagenes{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 10px;
-  }
-  .imagenes{
-    width: 100%;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 10%;
   }
   @media (max-width: 480px) {
 }
