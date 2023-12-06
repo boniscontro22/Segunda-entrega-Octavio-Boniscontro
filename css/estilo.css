@@ -70,6 +70,24 @@
     text-align: center;
     color: black;
   }
+  /* Estilos base para el contenedor del gradiente */
+.gradiente {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff, #ff0000);
+  background-size: 400% 400%;
+  animation: girar 5s linear infinite;
+}
+
+@keyframes girar {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
   @media (max-width: 480px) {
 }
 
