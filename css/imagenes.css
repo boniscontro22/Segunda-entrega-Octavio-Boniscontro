@@ -18,10 +18,14 @@
     bottom: 0;
     width: 100%;
   }
-  .imagenes{
+  .imagen1{
     width: 150px;
     height: 150px;
-    text-align: center;
+    padding: 10%;
+  }
+  .imagen2{
+    width: 150px;
+    height: 150px;
     padding: 10%;
   }
   .texto1{
