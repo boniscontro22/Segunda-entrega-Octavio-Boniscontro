@@ -19,10 +19,16 @@
     width: 100%;
   }
   .imagenes{
-    width: 300px;
-    height: 300px;
+    width: 150px;
+    height: 150px;
     text-align: center;
     padding: 10%;
+  }
+  .texto1{
+    font-size: 150%;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(red, blue);
   }
   @media (max-width: 480px) {
 }
